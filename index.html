@@ -3,54 +3,55 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sobika Thapa's MySpace Profile</title>
+    <title>My MySpace Profile</title>
     <style>
-        body {
-            background: linear-gradient(135deg, #ff7f50, #ff1493);
-            color: white;
-            font-family: 'Comic Sans MS', cursive;
-            text-align: center;
-            animation: backgroundAnimation 10s infinite alternate;
-        }
-        h1 {
-            font-size: 50px;
-            text-shadow: 2px 2px 4px #000000;
-        }
-        p {
-            font-size: 20px;
-            margin: 10px 0;
-        }
-        img {
-            border: 5px dotted #ff00ff;
-            width: 200px;
-            height: 200px;
-            border-radius: 50%;
-            animation: bounce 2s infinite;
-        }
-        @keyframes bounce {
-            0% {transform: translateY(0);}
-            50% {transform: translateY(-20px);}
-            100% {transform: translateY(0);}
-        }
-        @keyframes backgroundAnimation {
-            0% {background: linear-gradient(135deg, #ff7f50, #ff1493);}
-            100% {background: linear-gradient(135deg, #00bfff, #00ff7f);}
-        }
+        body { font-family: Arial, sans-serif; background-color: #d1cfcf; }
+        header { background: #4b8bc5; padding: 10px; text-align: center; color: white; }
+        nav { margin: 20px 0; }
+        nav a { margin: 0 15px; color: #fff; text-decoration: none; }
+        section { margin: 20px; padding: 20px; background: white; border-radius: 5px; }
+        .profile-box { background: #f9f9f9; padding: 10px; margin: 10px; border: 1px solid #ccc; }
     </style>
 </head>
 <body>
-    <h1>Sobika Thapa</h1>
-    <p><strong>Title:</strong> Associate Experience Designer</p>
-    <p><strong>Location:</strong> New York, NY (Ridgewood/Bushwick)</p>
-    <p><strong>Hometown:</strong> Kathmandu, Nepal</p>
-    <p><strong>Education:</strong> The College of Wooster</p>
-    <p><strong>Date Joined:</strong> November 2025</p>
-    <p><strong>Hobbies:</strong> Sketching, Painting, Hiking, Biking</p>
-    <p><strong>Projects:</strong> Edward Jones Pitch, Citadel Hypervisor, Bloomberg Professional Services</p>
-    <p><strong>Sectors:</strong> Finance</p>
-    <p><strong>Portfolio:</strong> <a href="http://www.sobikathapa.com" style="color: yellow;">www.sobikathapa.com</a></p>
-    <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/sobikathapa/" style="color: yellow;">LinkedIn Profile</a></p>
-    <img src="https://via.placeholder.com/200.png?text=Baby+Photo" alt="Baby Photo">
-    <img src="https://via.placeholder.com/200.png?text=Current+Photo" alt="Current Photo">
+    <header>
+        <h1>Welcome to My MySpace Profile</h1>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#updates">Latest Updates</a>
+            <a href="#contact">Contact</a>
+            <a href="#blog">Blog</a>
+        </nav>
+    </header>
+
+    <section id="profile">
+        <h2>Profile</h2>
+        <div class="profile-box">Profile Info 1</div>
+        <div class="profile-box">Profile Info 2</div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Information</h2>
+        <p>Email: youremail@example.com</p>
+        <p>Phone: 123-456-7890</p>
+    </section>
+
+    <section id="updates">
+        <h2>Latest Updates</h2>
+        <p>Update 1</p>
+        <p>Update 2</p>
+    </section>
+
+    <section id="interests">
+        <h2>Interests</h2>
+        <p>Interest 1</p>
+        <p>Interest 2</p>
+    </section>
+
+    <section id="blog">
+        <h2>Blog Entries</h2>
+        <p>Blog Entry 1</p>
+        <p>Blog Entry 2</p>
+    </section>
 </body>
 </html>
